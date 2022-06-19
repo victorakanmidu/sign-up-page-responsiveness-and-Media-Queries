@@ -64,10 +64,9 @@ body{
     height:40px;
     color:hsl(246, 25%, 77%);
     font-weight: 700;
-    padding:0px 0px 0px 20px;
+    padding:0px 10px 0px 20px;
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
-
 } 
 .input-box button{
     background-color: hsl(154, 59%, 51%);
@@ -76,7 +75,14 @@ body{
     padding:15px;
     border-radius:5px;
     font-weight: 700;
+    cursor: pointer;
 }
+/* .input-box button:hover {
+    background-image: url("../img/icon-error.svg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right 5% top 50%;
+} */
 
 .terms-and-services small{
     color:hsl(246, 25%, 77%);
