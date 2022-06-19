@@ -2,4 +2,4 @@
 
 A responsive signup page in HTML and CSS.
 
-See project here => https://github.com/victorakanmidu/sign-up-page-responsiveness-and-Media-Queries
+See project here => https://victorakanmidu.github.io/sign-up-page-responsiveness-and-Media-Queries
