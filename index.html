@@ -30,21 +30,25 @@
                     </p>
                 </div>
                 <div class="signup-container">
-                    <form>
+                    <form id="signup-form">
                         <div class="input-box">
-                            <input type="text" placeholder="Fistname" />
+                            <input type="text" class="the-box" placeholder="Fistname" />
+                            <i class="errorMsg">Firstname cannot be empty</i>
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Lastname" />
+                            <input type="text" class="the-box" placeholder="Lastname" />
+                            <i class="errorMsg">Lastname cannot be empty</i>
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Email address" />
+                            <input type="email" class="the-box" placeholder="Email address" />
+                            <i class="errorMsg">Email cannot be empty</i>
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Password" />
+                            <input type="password" class="the-box" placeholder="Password" />
+                            <i class="errorMsg">Password cannot be empty</i>
                         </div>
                         <div class="input-box">
-                            <button class="signup-btn">
+                            <button onclick="addErrorState()" type="button" class="signup-btn">
                                 CLAIM YOUR FREE TRIAL
                             </button>
                         </div>
@@ -59,5 +63,6 @@
         </div>
     </main>
     <footer></footer>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
